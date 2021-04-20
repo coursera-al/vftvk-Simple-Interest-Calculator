@@ -1,4 +1,7 @@
 body {background-color:black;color:black;font-family:arial}
 h1{color:grey;font-family:verdana}
-#maindiv{background-color:white;color:black;width:300px;padding:20px;border-radius:25px;margin-left:auto;margin-right:auto;}
+#maindiv{background-color:white;color:black;width:480px;padding:20px;border-radius:25px}
+#maindiv #form-content{width:320px;margin-left:auto;margin-right:auto;margin-bottom:15px}
+#maindiv #form-content .form-input{display:flex;align-content:space-evenly;margin-bottom:10px}
+#maindiv #form-content .form-input label{text-align:left;width:110px}
 .highlight{background-color:yellow;display:inline}

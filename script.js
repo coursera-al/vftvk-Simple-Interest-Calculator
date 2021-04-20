@@ -21,7 +21,7 @@ function compute()
         return
     }
     // Update result
-    result.innerHTML = '<br> If you deposit <div class="highlight">' +  principal + '</div>,<br>' + 
+    result.innerHTML = 'If you deposit <div class="highlight">' +  principal + '</div>,<br>' + 
         ' at an interest rate of <div class="highlight">' + rate + '%</div>. <br>' 
         + 'You will receive an amount of <div class="highlight">' + interest + '</div>, <br>' 
         + 'in the year <div class="highlight">' + year + '</div><br>';
